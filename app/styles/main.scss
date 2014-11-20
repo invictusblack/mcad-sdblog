@@ -4,6 +4,36 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+.main-nav{
+  width: 370px;
+  height: 65px;
+  padding: 5px;
+}
+
+.main-nav li{
+  display: inline-block;
+  font-family: franklin gothic, sans-serif;
+  font-size: small;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.main-nav a{
+  color: black;
+  text-decoration: none;
+}
+
+.main-nav a:hover{
+  border-bottom: 5px solid black;
+  padding-bottom: 5px;
+}
+
+.main-nav ul {
+  padding:0;
+  margin: 0;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -13,7 +43,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 
 /* Space out content a bit */
 body {
-background: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
 }
