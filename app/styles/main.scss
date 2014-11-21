@@ -1,4 +1,6 @@
-.sample-image{
-  zoom: 0.5;
-  display: block;
-}
+// main.scss
+
+
+@import "variables";
+@import "globals";
+@import "blog-title";
