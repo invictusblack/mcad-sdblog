@@ -10,7 +10,7 @@
 
 ul{
   @include clearfix;
-  border: 1px solid red;
+  border: 1px $gray-light;
   margin: 0;
   padding: 0;
   list-style-type: none;
