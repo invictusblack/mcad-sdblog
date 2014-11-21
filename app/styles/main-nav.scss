@@ -1,5 +1,18 @@
 .main-nav{
-  h2{
+  h2 {
     @include visuallyhidden;
   }
+}
+
+ul{
+  @include clearfix;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  float: left;
+  margin-left: 1.5em;
 }
