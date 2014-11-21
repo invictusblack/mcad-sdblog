@@ -1,8 +1,12 @@
 .main-nav{
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9em;
+
   h2 {
     @include visuallyhidden;
   }
-}
 
 ul{
   @include clearfix;
@@ -14,5 +18,19 @@ ul{
 
 li{
   float: left;
-  margin-left: 1.5em;
+  margin-right: 1em;
+  padding: 0 0.5em;
+  border-bottom: 0.4em solid transparent;
+  &:hover{
+    border-bottom: 0.4em solid $black;
+  }
+}
+
+
+a {
+  color: $black;
+  text-decoration: none;
+  padding: 0.5em 0em;
+  display: inline-block;
+}
 }
