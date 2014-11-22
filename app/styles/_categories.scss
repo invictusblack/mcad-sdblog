@@ -1,23 +1,23 @@
 .category-blue{
-@mixin gradient-to-solid-hover($blue);
+@include gradient-to-solid-hover($blue);
   }
 
 .category-red{
-@mixin gradient-to-solid-hover($red);
+@include gradient-to-solid-hover($red);
 }
 
 .category-pink{
-@mixin gradient-to-solid-hover($pink);
+@include gradient-to-solid-hover($pink);
 }
 
 .category-green{
-@mixin gradient-to-solid-hover($green);
+@include gradient-to-solid-hover($green);
 }
 
 .category-yellow{
-@mixin gradient-to-solid-hover($yellow);
+@include gradient-to-solid-hover($yellow);
 }
 
 .category-purple{
-@mixin gradient-to-solid-hover($purple);
+@include gradient-to-solid-hover($purple);
 }
