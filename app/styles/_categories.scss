@@ -1,0 +1,23 @@
+.category-blue{
+@mixin gradient-to-solid-hover($blue);
+  }
+
+.category-red{
+@mixin gradient-to-solid-hover($red);
+}
+
+.category-pink{
+@mixin gradient-to-solid-hover($pink);
+}
+
+.category-green{
+@mixin gradient-to-solid-hover($green);
+}
+
+.category-yellow{
+@mixin gradient-to-solid-hover($yellow);
+}
+
+.category-purple{
+@mixin gradient-to-solid-hover($purple);
+}

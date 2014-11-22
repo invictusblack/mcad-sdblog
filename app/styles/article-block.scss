@@ -4,6 +4,9 @@
   background: linear-gradient(red, transparent);
   padding: 1em;
   color: white;
+  &:hover{
+    background: red;
+  }
   .post-date{
     float: right;
   }
