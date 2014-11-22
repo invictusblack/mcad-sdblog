@@ -15,9 +15,10 @@ ul{
 li{
   float: left;
   margin-right: 1em;
-  padding: 0 0.5em;
+  padding: 0 0.01em;
   border-bottom: 0.4em solid transparent;
   &:hover{
     border-bottom: 0.4em solid $black;
   }
+}
 }
