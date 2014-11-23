@@ -17,10 +17,11 @@
       }
     }
     .line{
-      display: inline-block;
+      display: block;
     }
     .brochure{
-      background: url('images/sdo_broch.png') ;
+      background: url('../images/sdo_broch.png') no-repeat;
+      display: inline;
       width: 8em;
     }
     a{
