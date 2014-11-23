@@ -1,2 +1,16 @@
 header{
   background-color: yellow;
+  position: relative;
+  .utility-logo-group{
+    width: 10em;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .header-utilities{
+    float: left;
+  }
+  .logo-mcad{
+    float: right;
+  }
+}
