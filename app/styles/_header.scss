@@ -2,6 +2,8 @@ header{
   @include clearfix;
   width: 100%;
   position: relative;
+  margin-bottom: 3em;
+  
   .utility-logo-group{
     width: 10em;
     position: absolute;
@@ -12,7 +14,9 @@ header{
     float: left;
   }
   .logo-mcad{
-    width: 7em;
+    float: right;
+  }
+  .main-nav{
     float: right;
   }
 }
