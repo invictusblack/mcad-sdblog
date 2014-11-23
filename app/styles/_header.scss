@@ -1,5 +1,6 @@
 header{
-  background-color: yellow;
+  @include clearfix;
+  width: 100%
   position: relative;
   .utility-logo-group{
     width: 10em;
