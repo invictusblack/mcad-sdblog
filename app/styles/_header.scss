@@ -3,21 +3,19 @@ header{
   width: 100%;
   position: relative;
   margin-bottom: 3em;
-
-  .utility-logo-group{
-    width: 10em;
+  .utility-logo-group {
+    width: 50%;
     position: absolute;
     top: 0;
     right: 0;
-    padding-left: 8em;
   }
-  .header-utilities{
+  .header-utilities {
     float: left;
   }
-  .logo-mcad{
+  .logo-mcad {
     float: right;
   }
-  .main-nav{
+  .main-nav {
     float: right;
   }
 }
